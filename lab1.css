@@ -1,0 +1,184 @@
+﻿* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-size: 14px;
+    font-family: Arial;
+    color: white;
+    
+}
+
+header {
+    font-family: Consolas;
+}
+
+header, footer {
+    background-color: green;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+}
+
+main {
+    height: auto;
+    width: 100%;
+}
+
+.container-1 {
+    display: block;
+    width: 35%;
+    height: auto;
+    background-color: blue;
+    margin: 0 auto;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top: 1em;
+    position: relative;
+}
+
+h1 {
+    padding-bottom: 0.5em;
+}
+
+h2{
+    word-spacing: 0.5em;
+}
+
+.Square {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border: 4px solid white;
+    border-radius: 23% 0% 23% 0% / 23% 0% 23% 0%;
+    float: left;
+    margin-bottom: 1.5em;
+    margin-right: 1.5em;
+}
+
+p{
+    padding-top: 5px;
+    font-size: 14px;
+}
+
+a{
+    display: block;
+    text-align: center;
+    color:red;
+}
+
+#red-heading {
+    color: red;
+}
+
+.list-1 {
+    line-height: 1.8;
+    padding-left: 2.5em;
+}
+
+ul{
+    line-height: 1.8;
+}
+
+.value2 {
+    letter-spacing: 5px;
+}
+
+#ValColor {
+    color: cyan;
+}
+
+.list-2 {
+    list-style-type: none;
+}
+
+.container-2 {
+    display:flex;
+}
+
+.Box-1 {
+    width: 50%;
+    height: 50%;
+    position: relative;
+}
+
+.Box-2 {
+    width: 50%;
+    height: 50%;
+    position: relative;
+}
+
+table {
+    height: 150px;
+    width: 150px;
+    display: block;
+    padding-top: 5px;
+    position: relative;
+}
+
+tr {
+    width: 100px;
+}
+
+td {
+    width: 40px;
+    height: 30px;
+    border: solid 1px silver;
+    text-align: center;
+}
+
+.square {
+    width: 130px;
+    height: 100px;
+    border: 1px solid silver;
+    box-sizing: border-box;
+    padding-bottom: 3px;
+    position: absolute !important;
+    top: 0;
+    right: 0;
+}
+
+.square table {
+        width: 100%;
+        height: 100%;
+        border-collapse: collapse;
+        table-layout: fixed;
+}
+
+.square th, .square td {
+        border: 1px solid silver;
+        padding: 5px;
+}
+
+.square tbody {
+        display: block;
+        height: 100%;
+        margin-left: 3px;
+        position: relative;
+        padding-left: 1px;
+}
+table {
+    width: 100%;
+}
+tr {
+    vertical-align: bottom;
+}
+
+td {
+    padding: 10px;
+}
+
+.image {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+img{
+    position: relative;
+}
